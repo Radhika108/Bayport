@@ -107,3 +107,9 @@ spec:
       storage: "5Gi"
   volumeName: "zod" ```
 The volume can be mounted as read-write by more than one node.
+
+# General 
+
+How would you ensure any change made to this Dockerfile is source controlled, approved, tested and deployed. Explain which tools you will use as if this was going into a production environment.
+
+Github and Github Actions 
